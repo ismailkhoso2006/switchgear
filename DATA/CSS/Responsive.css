@@ -1,0 +1,556 @@
+
+@media (max-width: 1921px) {
+    .block-01 {
+        width: 96px;
+        margin-top: 31px;
+        margin-left: 20px;
+    }
+
+    #b2 {
+        width: 115.5px;
+        margin-top: 30px;
+        margin-left: 84px;
+    }
+    .block-8 {
+        width: 94px;
+        position: absolute;
+        left: 460px;
+        top: 30px;
+    }
+
+    #b11 {
+        left: 425px;
+        top: 31px;
+        width: 87px;
+    }
+
+    #b19 {
+        right: 83px;
+        width: 114.8px;
+        top: 30px;
+    }
+
+    #footerSection {
+    
+        top: -39px;
+        left: 199px;
+    }
+    #footerSection2 {
+        top: 0px;
+        left: 299px;
+    }
+
+    #footerSection8 {
+        top: 0px;
+      
+    }
+    #footerSection11 {
+        top: -7%;
+    left: 24%;
+      
+    }
+
+    #footerSection19{
+        top: -7%;
+        right: 50%;
+    }
+
+    .k001 {
+        width: 75px;
+        margin-left: 42px;
+    margin-top: 5px;
+    font-size: 23px;
+
+    }
+
+    .k002{
+        left: 116px;
+    top: 1px;
+    font-size: 25px;
+    }
+
+    .k008{
+        left: 486px;
+        top: 2px;
+    }
+
+    .k0011 {
+        left: 671px;
+        top: 2px;
+
+    }
+
+    .k0019 {
+        right: 118px;
+        top: 2px;
+
+    }
+    .heading h1{
+        width: 83px;
+        font-size: 12px;
+        margin-top: 105px;
+        margin-left: -29px;
+        margin-top: -6px;
+        text-align: center;
+        margin-left: -2px;
+    }
+
+    .card img {
+        width: 445px;
+        position: absolute;
+        margin-top: 3rem;
+        left: 35px;
+    }
+}
+
+
+
+@media (max-width: 1500px) {
+
+    .block-01 {
+     
+        width: 95px;
+        margin-top: 32.77px;
+        margin-left: 20px;
+    }
+
+    #b2 {
+        width: 114.94px;
+        margin-top: 31px;
+        margin-left: 83.5px;
+    
+    }
+
+    .block-8 {
+       
+        width: 94px;
+        left: 460px;
+        top: 30px;
+    
+    }
+
+    #b11 {
+       
+        left: 426px;
+        width: 87px;
+        top: 31px;
+    }
+
+    #b19 {
+       
+        right: 84px;
+        width: 115px;
+        top: 30px;
+    }
+    
+    .k001 {
+        margin-left: 39px;
+        margin-top: 2px;
+        font-size: 30px;
+        width: 200px;
+    }
+
+    .k002 {
+        left: 110px;
+        top: -1px;
+        font-size: 31px;
+    }
+
+    .k008 {
+        left: 484px;
+        top: -1px;
+        font-size: 28px;
+    }
+
+    .k0011 {
+       
+        left: 41.5rem;
+        top: -2px;
+        font-size: 33px;
+    }
+
+    .k0019 {
+        right: 114px;
+        top: -3px;
+        font-size: 30px;
+    }
+
+ 
+
+    .card img {
+        width: 30rem;
+        margin-top: 46px;
+    }
+
+    .heading h1{
+       
+        width: 83px;
+        font-size: 18px;
+        margin-top: -8px;
+    }
+}
+
+
+
+@media (max-width: 1400px) {
+
+    .block-01 {
+       
+        width: 82px;
+        margin-top: 28.77px;
+        margin-left: 18px;
+    }
+
+    #b2 {
+     
+        width: 102px;
+        margin-top: 28px;
+        margin-left: 73.5px;
+    }
+
+    .block-8 {
+       
+        width: 84px;
+        left: 397px;
+        top: 27.4px;
+    
+    }
+
+    #b11 {
+      
+        left: 336px;
+        width: 78.4px;
+        top: 27px;
+        position: absolute;
+    }
+
+    #b19 {
+       
+        right: 72px;
+        width: 103px;
+        top: 26px;
+    }
+    
+    .k001 {
+      
+        margin-left: 33px;
+        margin-top: 4px;
+        font-size: 23px;
+        width: 200px;
+    }
+
+    .k002 {
+       
+        left: 106px;
+        top: 1px;
+        font-size: 24px;
+    }
+
+    .k008 {
+        left: 417px;
+        top: 3px;
+        font-size: 24px;
+    }
+    .k0011 {
+       
+        left: 36.3rem;
+        top: 3px;
+        font-size: 21px;
+    }
+
+    .k0019 {
+       
+        right: 106px;
+        top: 10px;
+        font-size: 15px;
+    }
+    #footerSection8 {
+        left: 46%;
+        top: 9%;
+    }
+
+ #footerSection19{
+    top: 9%;
+    right: 55%;
+ }
+
+ #footerSection11 {
+    left: 13% !important;
+   
+    margin-top: 4%;
+}
+
+#footerSection{
+    margin-top: 4%;
+}
+#footerSection2{
+    margin-top: 4%;
+}
+
+.heading h1 {
+    width: 83px;
+    font-size: 16px;
+    margin-top: -62px;
+    
+}
+
+    
+    .card img {
+        width: 30rem;
+        margin-top: -8px;
+    }
+
+    .data{
+        top: 30px;
+        left: 50px;
+    }
+}
+
+@media (max-width: 1200px){
+    .block-01 {
+        width: 69px;
+        margin-top: 24px;
+        margin-left: 16px;
+    }
+
+    #b2 {
+        width: 89.7px;
+        margin-top: 23px;
+        margin-left: 62px;
+    }
+
+    .block-8 {
+        width: 74px;
+        left: 333px;
+        top: 24px;
+    }
+
+    #b11 {
+        left: 246px;
+        width: 70px;
+        top: 23px;
+    }
+
+    #b19 {
+        right: 61px;
+        width: 90px;
+        top: 23px;
+    }
+
+
+
+    #footerSection8 {
+        left: 46%;
+        top: 6%;
+    }
+
+     #footerSection19 {
+        top: 6%;
+        right: 62%;
+    }
+
+ #footerSection11 {
+    left: 9% !important;
+   
+    margin-top: 4%;
+}
+
+#footerSection{
+    margin-top: 4%;
+}
+#footerSection2{
+    margin-top: 4%;
+}
+
+.k001 {
+    margin-left: 31px;
+    margin-top: 6px;
+    font-size: 18px;
+    width: 200px;
+}
+
+.k002 {
+    left: 89px;
+    top: 3px;
+    font-size: 15px;
+    font-size: 19px;
+}
+
+.k008 {
+    left: 352px;
+    top: 3px;
+    font-size: 19px;
+}
+
+.k0011 {
+    left: 30.3rem;
+    top: 3px;
+    font-size: 20px;
+}
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+    .block-01 {
+        width: 69px;
+        margin-top: 24px;
+        margin-left: 15px;
+    }
+
+
+    #b2 {
+        width: 89.5px;
+        margin-top: 23.5px;
+        margin-left: 62px;
+    }
+    .block-8 {
+        width: 74.5px;
+        left: 333px;
+        top: 23.4px;
+    }
+
+    #b11 {
+        left: 246px;
+        width: 69px;
+        top: 24.3px;
+    }
+
+    #b19 {
+        right: 62px;
+        width: 89.4px;
+        top: 23.8px;
+    }
+
+    .heading h1 {
+        width: 83px;
+        font-size: 8px;
+        font-size: 11px;
+        margin-top: -76px;
+        margin-left: -87px;
+    }
+
+    .card img {
+        margin-top: -20px;
+        width: 293px;
+    }
+
+    #footerSection {
+        margin-top: 7%;
+    }
+
+    #footerSection2 {
+        margin-top: 7%;
+    }
+
+    #footerSection8 {
+        left: 46%;
+        top: 15%;
+    }
+
+    .k001 {
+        margin-left: 31px;
+        font-size: 16px;
+    }
+
+    .k002 {
+        font-size: 19px;
+        left: 87px;
+        top:4px;
+    }
+    .k008 {
+        left: 356px;
+        font-size: 16px;
+        top: 6px;
+    }
+
+    .k0011{
+        font-size: 19px;
+        left: 517px;
+       top: -11px;
+    }
+    .k0019{
+        right: 77px;
+        top: -11px;
+        font-size: 19px;
+    }
+
+    .data{
+        
+        left: 50px;
+        width: 431px;
+    }
+}
+
+@media (max-width: 769px) {
+    .block-01 {
+        width: 55.6px;
+        margin-top: 21px;
+        margin-left: 13px;
+    }
+
+    #b2 {
+        width: 53px;
+        margin-top: 20.5px;
+        margin-left: 51px;
+    }
+
+    .block-8 {
+        width: 40.7px;
+        left: 271px;
+        top: 20px;
+    }
+
+    #b11 {
+        left: 158px;
+        width: 36.8px;
+        top: 20.4px;
+    }
+
+    #b19 {
+        right: 41px;
+        width: 53.4px;
+        top: 19.8px;
+    }
+
+    .k001 {
+        margin-left: 25px;
+        font-size: 16px;
+    }
+
+    .k002 {
+        font-size: 14px;
+        left: 64px;
+        top: -6px;
+    }
+
+    .k008 {
+        left: 277px;
+        font-size: 16px;
+        top: -8px;
+    }
+
+    .k0011 {
+        font-size: 16px;
+        left: 386px;
+        top: -9px;
+    }
+
+    .k0019 {
+        right: 53px;
+        top: -8px;
+        font-size: 16px;
+    }
+
+    .card img {
+        width: 218px;
+        margin-top: -8px;
+    }
+
+     .heading h1{
+        font-size: 20px;
+    }
+
+}

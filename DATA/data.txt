@@ -1,0 +1,62 @@
+<html>
+<head>
+<script src="js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+  // Array of URLs for different points
+  var urls = [
+    "/obix/config/Drivers/NiagaraNetwork/BMS_NC1_IS/points/Community_1/Utility/PMS/Switchgear/Power$20Meter_Feeders_IN_OUT_1/VAN_/out",
+    "/obix/config/Drivers/NiagaraNetwork/BMS_NC1_IS/points/Community_1/Utility/PMS/Switchgear/Power$20Meter_Feeders_IN_OUT_1/Kwh/out"
+   ,
+    // Add more URLs as needed
+  ];
+
+  // Loop through each URL and make AJAX requests
+  urls.forEach(function(url, index) {
+    $.ajax({
+      type: "GET",
+      url: url,
+      dataType: "xml",
+      contentType: "xml",
+      success: function(obj) {
+        // Get the <real> element in the response
+        var realElement = obj.getElementsByTagName("real")[0];
+        
+        // If the <real> element is found, get its value and display it
+        if (realElement) {
+          var value = realElement.getAttribute("val");
+          $("#point" + (index + 1)).text(value);
+        } else {
+          $("#point" + (index + 1)).text("Point " + (index + 1) + ": No 'real' element found.");
+        }
+      },
+      error: function() {
+        $("#point" + (index + 1)).text("Point " + (index + 1) + ": Error loading data.");
+      }
+    });
+  });
+});
+</script>
+</head>
+<body>
+
+<div id="testObix">
+  <h1 id="point1">Loading Point 1...</h1>
+  <h1 id="point2">Loading Point 2...</h1>
+  <h1 id="point3">Loading Point 3...</h1>
+  <h1 id="point4">Loading Point 4...</h1>
+  <h1 id="point5">Loading Point 5...</h1>
+  <h1 id="point6">Loading Point 6...</h1>
+  <h1 id="point7">Loading Point 7...</h1>
+  <h1 id="point8">Loading Point 8...</h1>
+  <h1 id="point9">Loading Point 9...</h1>
+  <h1 id="point10">Loading Point 10...</h1>
+  <h1 id="point11">Loading Point 11...</h1>
+  <h1 id="point12">Loading Point 12...</h1>
+  <h1 id="point13">Loading Point 13...</h1>
+  <!-- Add more <h1> elements as needed for additional points -->
+  <img src='./HTML_/src/Shot_01.png' width="1000px" height="800px">
+</div>
+
+</body>
+</html>
