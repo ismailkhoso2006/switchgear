@@ -586,10 +586,13 @@ body {
     text-align: center;
     font-size: 10px;
     letter-spacing: 0px;
-    margin-top: -7px;
+    margin-top: -3px;
 }
 
 .data .voltax{
-    width: 33.3333333%;
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 100px !important;
+    max-width: 400px !important;
 }
 
