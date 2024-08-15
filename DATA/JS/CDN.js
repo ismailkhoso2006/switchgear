@@ -37,7 +37,7 @@ $(document).ready(function() {
           }
         },
         error: function() {
-          $("#point" + (index + 1)).text("Error ");
+          $("#point" + (index + 1)).text("Error");
         }
       });
     });
